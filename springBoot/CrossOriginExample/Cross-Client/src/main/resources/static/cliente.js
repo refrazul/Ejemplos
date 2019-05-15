@@ -1,7 +1,5 @@
 $(document).ready(function(){
- 
-	alert("Hola")
-	$.ajax({
+ 	$.ajax({
 	    url: "http://localhost:7000/cross-server/saludar/refrazul",
 	    success: function (response) {
 	        console.log(response);
